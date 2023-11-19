@@ -1,6 +1,6 @@
 def calculate(input, multiplier):
     result = int(input)*int(multiplier)
-    if len(str(result)) >= 12:
+    if len(str(result)) <= 12:
         print(f'{result} Ticks.')
         enter()
     else:
@@ -30,6 +30,7 @@ def enter():
         print('MC-TICKS.py - Input must be numeric.\n')
         enter()
 
+print('#################\n   MC.TICKS.py\n Made by Julian\n#################')
 enter()
 
 # https://www.mc-ticks.pro/
